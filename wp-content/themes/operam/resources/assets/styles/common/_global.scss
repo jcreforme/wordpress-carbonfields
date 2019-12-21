@@ -1,0 +1,27 @@
+
+
+.main {
+    max-width: 1024px;
+    
+}
+
+.homepage {
+    min-width: 600px;
+    width: auto;
+}
+
+.image { 
+    display: inline-block;
+}
+
+@media all and (max-width: 768px) {
+    .homepage { 
+        width: 301px;
+    }
+}
+
+@media all and (max-width: 320) {
+    .homepage { 
+        width: 150px;
+    }
+}
