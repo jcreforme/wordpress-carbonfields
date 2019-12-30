@@ -1,8 +1,12 @@
+<!-- get images from PHP controller -->
+<!-- <div class="homepage"> -->
+<!-- @foreach($get_images as $image)
+<div class='image'> 
+<?php //echo $image; ?>
+</div>
+@endforeach -->
+<!-- </div> -->
 <div class="homepage">
-<?php
-    //get images from PHP controller
-    //echo $getImages;
-?>
     <div id="app">  
         @{{template}}             
     </div>

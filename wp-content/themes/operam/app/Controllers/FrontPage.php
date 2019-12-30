@@ -13,9 +13,7 @@ class FrontPage extends Controller
 
         foreach ( $images as $image ){
             //print_r($image);
-            $value  = "<div class='image'>";   
-            $value .= wp_get_attachment_image( $image['image'], array('120', '120'), "", array( "class" => "img-responsive")); 
-            $value .= "</div>";
+            $value[] = wp_get_attachment_image( $image['image'], array('120', '120'), "", array( "class" => "img-responsive")); 
         } 
 
         return $value;
